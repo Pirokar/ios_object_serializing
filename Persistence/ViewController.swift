@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet var lineFieilds: [UITextField]!
 
     override func viewDidLoad() {
         super.viewDidLoad()
